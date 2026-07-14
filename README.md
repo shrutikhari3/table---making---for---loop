@@ -1,58 +1,98 @@
 # table-making-for-loop
-# Multiplication Table of 3 Using a `for` Loop in C
+# Multiplication Table Generator in C
 
 ## 📌 Overview
 
-This C program prints the multiplication table of **3** from **1 to 10** using a `for` loop. It is a simple beginner-friendly program that demonstrates loop iteration, arithmetic operations, and formatted output in C.
+This C program generates the multiplication table of any number entered by the user. It uses the `scanf()` function to accept user input and a `for` loop to print the multiplication table from **1 to 10**.
+
+This project is ideal for beginners who are learning loops, user input, variables, and arithmetic operations in the C programming language.
+
+---
 
 ## 🚀 Features
 
-* Prints the multiplication table of **3** from **1 to 10**.
-* Demonstrates the use of a `for` loop.
-* Uses formatted output with `printf()`.
-* Easy to understand for beginners learning C programming.
+* Accepts any integer as user input.
+* Generates the multiplication table from **1 to 10**.
+* Uses a `for` loop for iteration.
+* Demonstrates formatted output using `printf()`.
+* Beginner-friendly and easy to understand.
+
+---
 
 ## 🛠️ Technologies Used
 
-* **Language:** C
+* **Programming Language:** C
 * **Header File:** `stdio.h`
+
+---
 
 ## 📂 How It Works
 
-1. Initializes the variable `num` with the value **3**.
-2. Starts a `for` loop that runs from **1** to **10**.
-3. During each iteration, the program multiplies `num` by the current loop variable.
-4. Displays the multiplication table in the format:
+1. Prompts the user to enter a number.
+2. Reads the input using `scanf()`.
+3. Executes a `for` loop from **1** to **10**.
+4. Multiplies the entered number by the current loop value.
+5. Displays the multiplication table in a clean and readable format.
 
-   ```
-   3 x 1 = 3
-   3 x 2 = 6
-   ...
-   3 x 10 = 30
-   ```
+---
+
+## 💻 Sample Input
+
+```text
+Enter a number: 7
+```
 
 ## 💻 Sample Output
 
 ```text
-3 x 1 = 3
-3 x 2 = 6
-3 x 3 = 9
-3 x 4 = 12
-3 x 5 = 15
-3 x 6 = 18
-3 x 7 = 21
-3 x 8 = 24
-3 x 9 = 27
-3 x 10 = 30
+7 x 1 = 7
+7 x 2 = 14
+7 x 3 = 21
+7 x 4 = 28
+7 x 5 = 35
+7 x 6 = 42
+7 x 7 = 49
+7 x 8 = 56
+7 x 9 = 63
+7 x 10 = 70
 ```
+
+---
 
 ## 📚 Concepts Practiced
 
 * Variables
+* User Input (`scanf()`)
+* Output Formatting (`printf()`)
 * `for` Loop
 * Arithmetic Operations
-* Formatted Output (`printf()`)
+* Basic Problem Solving
+
+---
 
 ## 🎯 Learning Objective
 
-This project helps beginners understand how to use a `for` loop to generate a multiplication table and perform repeated arithmetic operations in C.
+The objective of this project is to help beginners understand how to accept user input, perform arithmetic calculations, and use loops to automate repetitive tasks. It also demonstrates how to create a reusable program that can generate the multiplication table for any integer entered by the user.
+
+---
+
+## ▶️ How to Run
+
+1. Compile the program using a C compiler:
+
+   ```bash
+   gcc multiplication_table.c -o multiplication_table
+   ```
+
+2. Run the executable:
+
+   ```bash
+   ./multiplication_table
+   ```
+
+3. Enter any integer when prompted to view its multiplication table from **1 to 10**.
+
+
+
+
+
